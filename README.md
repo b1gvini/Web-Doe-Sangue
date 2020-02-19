@@ -1,2 +1,3 @@
 # Projeto-Web-Doe-Sangue
-Projeto desenvolvido pela maratonaDev.
+HTML, CSS, JAVASCRIPT.
+Doe sangue, salve vidas :)
