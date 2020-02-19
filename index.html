@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<!-- HTML
+
+    HYPERTEXT
+    Texto que contém links para outros documentos
+
+    MARKUP
+    Texto conterá marcações
+    <tags>
+    
+    LANGUAGE
+    Sintaxe específica para escrita.
+
+
+-->
+<html>
+
+<head>
+    <!-- Configurações de minha página -->
+    <title>Doe Sangue!</title>
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <!--
+            Conteúdo Visível do Site.
+        -->
+    <header>
+        <img class="logo" src="logo.png" alt="IMAGEM DE DOE">
+        <h2>A sua doação importa</h2>
+        <p>Salve até 3 vidas com 1 doação</p>
+        <p>Mais de 38.000 doações são necessárias todos os dias</p>
+        <p>Apenas 1,9% da população brasileira doa sangue.</p>
+        <button>Quero Ajudar!</button>
+
+    </header>
+
+    <section class="form hide">
+        <h2>Entre na lista de doadores</h2>
+        <form action="/">
+            <input type="text" name="name" id="" placeholder="Nome Completo">
+            <input type="text" name="email" id="" placeholder="Email">
+            <input type="text" name="blood" id="" placeholder="Tipo sanguíneo">
+            <button>Quero Ajudar!</button>
+        </form>
+
+    </section>
+
+    <main>
+        <h2>Últimos <span>doadores</span></h2>
+
+        <section class="donors">
+            <div class="donor">
+                <div class="blood">A-</div>
+                <p>Vinícius</p>
+
+            </div>
+            <div class="donor">
+                <div class="blood">A+</div>
+                <p>Fernanda</p>
+
+            </div>
+            <div class="donor">
+                <div class="blood">O-</div>
+                <p>Cabeça</p>
+
+            </div>
+            <div class="donor">
+                <div class="blood">AB+</div>
+                <p>David</p>
+
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        Com amor, Vinícius 💉😍
+    </footer>
+    <script src="script.js"></script>
+</body>
+
+</html>
